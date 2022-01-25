@@ -2,7 +2,7 @@
 
 [![](https://jitpack.io/v/luongvantuit/recyclerview.svg)](https://jitpack.io/#luongvantuit/recyclerview)
 
-Make RecyclerView custom no need creat ViewHolder & Adapter 
+Make IRecyclerView custom RecyclerView no need create ViewHolder & Adapter 
 
 Add dependency to your project:
 
@@ -17,7 +17,7 @@ repositories {
 }
 ```
 
-- __implementation library__
+implementation library
 
 ```gradle
 dependencies {
@@ -27,6 +27,8 @@ dependencies {
 
 - __gradle:olderVersion__
 
+Modify file __build.gradle__
+
 ```gradle
 allprojects {
     repositories {
@@ -35,7 +37,7 @@ allprojects {
     }
 }
 ```
-- __implementation__
+implementation library
 
 ```gradle
 dependencies {
