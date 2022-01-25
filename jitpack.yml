@@ -1,4 +1,4 @@
 jdk:
   - openjdk11
 install:
-  - ./gradlew build :recyclerview:publishToMavenLocal
+  - ./gradlew build :lib:publishToMavenLocal
